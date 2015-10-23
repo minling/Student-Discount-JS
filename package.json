@@ -1,0 +1,17 @@
+{
+  "name": "student-discount-js",
+  "version": "0.0.1",
+  "scripts": {
+    "encrypt": "encrypt config.json config.json.cast5",
+    "decrypt": "decrypt config.json.cast5 config.json"
+  },
+  "main": "map.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "mysql": "^2.9.0"
+  },
+  "devDependencies": {},
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
